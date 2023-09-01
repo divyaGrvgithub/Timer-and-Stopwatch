@@ -6,7 +6,7 @@ $(".stopwatch-btn").click(function(){
   $(".stopwatch").slideDown();
   $(".type").html("Stopwatch")
 });
-$(".timer-btn").click(function(){
+$(".timer-btn").click(function(){  
   // hide all other wrapper
   $(".outer-wrapper > div").slideUp();
 
